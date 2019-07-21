@@ -31,3 +31,4 @@ C:\Users\Batuhan\Desktop\myBlog\Blog\Blog.MVC\obj\Debug\netcoreapp2.2\Razor\View
 C:\Users\Batuhan\Desktop\myBlog\Blog\Blog.MVC\obj\Debug\netcoreapp2.2\Blog.MVC.csprojAssemblyReference.cache
 C:\Users\Batuhan\Desktop\myBlog\Blog\Blog.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
 C:\Users\Batuhan\Desktop\myBlog\Blog\Blog.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Users.g.cshtml.cs
+C:\Users\Batuhan\Desktop\myBlog\Blog\Blog.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Home\Roles.g.cshtml.cs

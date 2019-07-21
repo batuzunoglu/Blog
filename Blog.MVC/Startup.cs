@@ -68,7 +68,10 @@ namespace Blog.MVC
                 //options.SlidingExpiration = true;
             });
 
-
+            services.AddAuthorization(opt =>
+            {
+                opt.AddPolicy("test", policy => policy.RequireRole("User"));
+            });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

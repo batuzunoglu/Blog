@@ -91,7 +91,7 @@ namespace Blog.MVC.Controllers
         }
 
         [HttpGet]
-        [Authorize]
+        [Authorize(Roles ="Admin")]
         public async Task<IActionResult> Users()
         {
             var users =await _dbContext.Users.ToListAsync();
@@ -99,7 +99,7 @@ namespace Blog.MVC.Controllers
         }
 
         [HttpGet]
-        [Authorize]
+        [Authorize(Policy = "test")]
         public async Task<IActionResult> Roles()
         {
             var roles = await _dbContext.Roles.ToListAsync();
