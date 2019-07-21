@@ -40,7 +40,7 @@ namespace Blog.MVC.Controllers
             await Task.FromResult(0);
             return View(new RegisterDto());
         }
-
+         
 
         [HttpPost]
         public async Task<IActionResult> Register(RegisterDto input)
